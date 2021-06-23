@@ -7,6 +7,6 @@ type ButtonProps = ButtonHTMLAttributes<HTMLButtonElement>;
 
 export default function Button(props: ButtonProps){
     return (
-        <button className="button" {...props}>Entrar na sala </button>
+        <button className="button" {...props}></button>
     )
 }
